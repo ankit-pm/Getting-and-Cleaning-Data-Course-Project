@@ -7,6 +7,6 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 
 3.Run the [Run_Analysis.R](https://github.com/ankit-pm/Getting-and-Cleaning-Data-Course-Project/blob/master/run_analysis.R)
 
-4.Output for the same would be a tidy data set given in the [link]()
+4.Output for the same would be a tidy data set given in the [link](https://github.com/ankit-pm/Getting-and-Cleaning-Data-Course-Project/blob/master/Tidy)
 
 5.Finally, you can read about the steps in the [Codebook]()
