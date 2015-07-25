@@ -17,7 +17,23 @@ In the start, we were provided 561 Column vector for the data. However, we are o
 
 ## Step 3.
 
-In the step 1, we have extracted the activity ids . However, we would need proper Activity labels to present information in a more consumable manner.
+In the step 1, we have extracted the activity ids . However, we would need proper Activity labels to present information in a more consumable manner in each data row.
+
+## Step 4.
+
+We wil now be labelling datasets with more meaningful and descriptive variable names.
+
+For example, I have created a sample table with transformations listed for the variables
+
+|OldValue|NewValue|
+|--------|--------|
+|tBodyAcc-mean()-X|
+84|tBodyAccJerk-std()-X|
+	43	tGravityAcc-mean()-Z
+543	fBodyBodyGyroJerkMag-std()
+228 tBodyAccJerkMag-std()
+
+
 
 
 
