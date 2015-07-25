@@ -23,7 +23,7 @@ In the step 1, we have extracted the activity ids . However, we would need prope
 
 We wil now be labelling datasets with more meaningful and descriptive variable names.
 
-For example, I have created a sample table with transformations listed for the variables
+In the Tidy Data set , there will be 81 transformed variables. We have used sub() command to find and replace various patters.For example, I have created a sample table with transformations listed for the variables. 
 
 |OldValue|NewValue|
 |--------|--------|
@@ -32,8 +32,6 @@ For example, I have created a sample table with transformations listed for the v
 |tGravityAcc-mean()-Z|Time.Domain.Signal.Gravity.Acceleration.Average.Value.along.Z.axis.of.Smartphone|
 |fBodyBodyGyroJerkMag-std()|Fourier.Transformation.Body Angular Velocity MagnitudeStandard.Deviation|
 |tBodyAccJerkMag-std()|Time.Domain.Signal.Body.Linear.Acceleration.JerkMagStandard.Deviation|
-
-
 
 
 
