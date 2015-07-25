@@ -117,4 +117,5 @@ tidydata<-aggregate(.~mergeddata$Subject+mergeddata$Descriptive.Activity,mergedd
 colnames(tidydata)[1:2]<-c("Subject","Activity")
 #5....Creation of a Tidy Data Set
 tidydata<-tidydata[,1:81]
+tidydata<-tidydata[order(tidydata$Subject,tidydata$Activity),]
 write.table(tidydata,file ="tidy.txt",sep = "\t" ,row.names = FALSE)
