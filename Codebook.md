@@ -9,10 +9,15 @@ We will loading the Library(Dplyr) as we we will be using some functions of the 
 
 We will read the test data files(X_TEST) and training data files (X_TRAIN) from our working directory where the complete Zip file is extracted and unpacked.
 
-We will be using commands such as cbind() to combine Activity ID , Activity Description and the Subject IDs with the test and training data for preparing our data. We will be using rbind() command to combine test and train data(there should 10299 Rows of Data)
+We will be using commands such as cbind() to combine Activity ID , and the Subject IDs with the test and training data for preparing our data. We will be using rbind() command to combine test and train data(there should 10299 Rows of Data)
 
+##Step 2.
 
+In the start, we were provided 561 Column vector for the data. However, we are only interested in columns with mean and std in them. We will use grep() command to extract only those columns which have mean and std in them. 
 
+## Step 3.
+
+In the step 1, we have extracted the activity ids . However, we would need proper Activity labels to present information in a more consumable manner.
 
 
 
