@@ -27,11 +27,11 @@ For example, I have created a sample table with transformations listed for the v
 
 |OldValue|NewValue|
 |--------|--------|
-|tBodyAcc-mean()-X|
-84|tBodyAccJerk-std()-X|
-	43	tGravityAcc-mean()-Z
-543	fBodyBodyGyroJerkMag-std()
-228 tBodyAccJerkMag-std()
+|tBodyAcc-mean()-X|Time.Domain.Signal.Body.Linear.Acceleration.Average.Value.along.X.axis.of.Smartphone|
+|tBodyAccJerk-std()-X|Time.Domain.Signal.Body.Linear.Acceleration.JerkStandard.Deviation.along.X.axis.of.Smartphone|
+|tGravityAcc-mean()-Z|Time.Domain.Signal.Gravity.Acceleration.Average.Value.along.Z.axis.of.Smartphone|
+|fBodyBodyGyroJerkMag-std()|Fourier.Transformation.Body Angular Velocity MagnitudeStandard.Deviation|
+|tBodyAccJerkMag-std()|Time.Domain.Signal.Body.Linear.Acceleration.JerkMagStandard.Deviation|
 
 
 
