@@ -10,4 +10,4 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 
 4.Output for the same would be a tidy data set given in the [link](https://github.com/ankit-pm/Getting-and-Cleaning-Data-Course-Project/blob/master/Tidy)
 
-5.Finally, you can read about the steps in the [Codebook]()
+5.Finally, you can read about the steps in the [Codebook](https://github.com/ankit-pm/Getting-and-Cleaning-Data-Course-Project/blob/master/Codebook.md)
