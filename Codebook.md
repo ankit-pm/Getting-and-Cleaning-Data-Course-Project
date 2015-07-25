@@ -33,7 +33,11 @@ In the Tidy Data set , there will be 81 transformed variables. We have used sub(
 |fBodyBodyGyroJerkMag-std()|Fourier.Transformation.Body Angular Velocity MagnitudeStandard.Deviation|
 |tBodyAccJerkMag-std()|Time.Domain.Signal.Body.Linear.Acceleration.JerkMagStandard.Deviation|
 
+## Step 5.
 
+Finally, we will take the 10299 observations of 81 variables and use aggregate function to take mean of all the 81 variables, for the grouping condition of Subject and Activity.
+
+We will then order the data based on each subject and write the table to a text file called tidy.text with tab seperator.
 
 ##Subjects
 The Tidy Dataset's column name "Subject" represents the 30 subjects with values ranging from 1 to 30. 
